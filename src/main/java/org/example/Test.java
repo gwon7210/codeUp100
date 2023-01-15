@@ -1,2 +1,9 @@
-package org.example;public class Test {
+package org.example;
+
+public class Test {
+
+
+    public void runTest(){
+
+    }
 }
