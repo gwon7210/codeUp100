@@ -10,6 +10,9 @@ public class code16 {
 
         String test_value = "17:23:57";
 
+        String[] arr = test_value.split(":");
+
+        System.out.println(arr[1]);
 
     }
 }
