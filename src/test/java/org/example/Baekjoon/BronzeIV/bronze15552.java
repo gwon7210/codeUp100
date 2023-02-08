@@ -1,10 +1,16 @@
-package org.example;
+package org.example.Baekjoon.BronzeIV;
+
+import org.junit.Test;
 
 import java.io.*;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Main {
-    public static void main(String[] args) throws IOException {
+
+public class bronze15552 {
+
+    @Test
+    public void print() throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -29,5 +35,8 @@ public class Main {
 
         bw.flush();
         bw.close();
-     }
+
+
+    }
+
 }
